@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">Clube Recreativo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold active">
+                        <a href="#sobre-o-clube" class="nav-link">
+                            Sobre o clube</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#espaços" class="nav-link">
+                            Espaços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#atividades" class="nav-link">
+                            Nossas atividades</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre-o-clube">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/images/familia.jpg" alt="Foto do esaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/academia.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/crianças-natação.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button"data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel"class=active data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/futebol.jpg" alt="foto do espaço interno do restaurante" class="w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o clube</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores labore mollitia facilis architecto sed ab, dolores quidem eaque eius, cumque expedita, tenetur laborum perferendis sequi. Esse fuga adipisci repellat laboriosam.
+                            </p>
+                            <h3 class="section-title">Como <span class="text-colored">fazer parte:</span></h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eveniet porro quidem, qui distinctio minus ad eius nihil perferendis nisi odit dolores excepturi tempora! Sed cupiditate quaerat laborum voluptatem aspernatur!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="espaços" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para toda <span class="text-colored">a família</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/ginastica.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Atividades ao ar livre</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, itaque. Enim accusamus deleniti, omnis velit officiis, facilis vitae nobis ipsum fuga reprehenderit ratione. Eaque adipisci quos, nobis voluptatum odit vel.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/natação.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Esportes</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, itaque. Enim accusamus deleniti, omnis velit officiis, facilis vitae nobis ipsum fuga reprehenderit ratione. Eaque adipisci quos, nobis voluptatum odit vel.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/lazer.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Lazer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, itaque. Enim accusamus deleniti, omnis velit officiis, facilis vitae nobis ipsum fuga reprehenderit ratione. Eaque adipisci quos, nobis voluptatum odit vel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="atividades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">Atividades</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#esportes" class=" fw-bold text-start nav-link text-colored active">Esportes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#lazer" class=" fw-bold text-start nav-link text-colored">Lazer</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#temporada-de-verao" class=" fw-bold text-start nav-link text-colored">Temporada de Verão</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#academia" class=" fw-bold text-start nav-link text-colored">Academia/Ginástica</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros-espacos" class=" fw-bold text-start nav-link text-colored">Outros Espaços</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="esportes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/nataçãoo.jpg" alt="natação">
+                                        <h5 class="text-colored fw-bold mt-2">Natação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/tenis.jpg" alt="tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/volei.jpg" alt="volei">
+                                        <h5 class="text-colored fw-bold mt-2">Vôlei</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/futebol1.jpg" alt="futebol">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="lazer">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/lazer1.jpg" alt="lazer">
+                                        <h5 class="text-colored fw-bold mt-2">Lazer</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/lazer2.jpg" alt="lazer">
+                                        <h5 class="text-colored fw-bold mt-2">Lazer</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="temporada-de-verao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/colinia-de-ferias.jpg" alt="colonia de ferias">
+                                        <h5 class="text-colored fw-bold mt-2">Colônia de Férias</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/crianças-natação.jpg" alt="nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Piscina</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="academia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/academiaa.jpg" alt="academia">
+                                        <h5 class="text-colored fw-bold mt-2">Academia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/ginastica.jpg" alt="ginastia">
+                                        <h5 class="text-colored fw-bold mt-2">Ginástica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/pilates.jpg" alt="pilates">
+                                        <h5 class="text-colored fw-bold mt-2">Pilates</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/yoga.jpg" alt="yoga">
+                                        <h5 class="text-colored fw-bold mt-2">Yoga</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="outros-espacos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/biblioteca.jpg" alt="biblioteca">
+                                        <h5 class="text-colored fw-bold mt-2">Biblioteca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cantina.jpg" alt="cantina">
+                                        <h5 class="text-colored fw-bold mt-2">Cantina</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/brinquedoteca.jpg" alt="brinquedoteca">
+                                        <h5 class="text-colored fw-bold mt-2">Brinquedoteca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="text" id="email" class="form-control"required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="text" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+    
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

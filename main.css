@@ -1,0 +1,66 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #579e47;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:  #579e47;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #c1feb7;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+
+#sobre-o-clube, #atividades {
+    background-color: #ddfdd8;
+}
+
+.text-colored {
+    color: #579e47;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color:  #579e47;
+    color:#fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #579e47;;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
