@@ -24,12 +24,26 @@ body {
 
 .carousel {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .carousel-inner {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+.carousel-item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
 
 #sobre-o-clube, #atividades {
     background-color: #ddfdd8;
